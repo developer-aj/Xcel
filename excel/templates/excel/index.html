@@ -1,0 +1,14 @@
+<table border=1>
+<tr>
+	<th>Roll No.</th>
+	<th>Password</th>
+	<th>College</th>
+</tr>
+{% for i in d %}
+<tr>
+	<td>{{ i.roll }}</td>
+	<td>{{ i.pwd }}</td>
+	<td>{{ i.clg }}</td>
+</tr>
+{% endfor %}
+</table>
